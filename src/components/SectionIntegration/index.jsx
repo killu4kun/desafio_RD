@@ -40,19 +40,9 @@ const array = [
     name: "RD Station CRM",
   },
   {
-    src: Salesforce,
-    alt: "Salesforce logo",
-    name: "Salesforce",
-  },
-  {
     src: Google,
     alt: "Google logo",
     name: "Google",
-  },
-  {
-    src: Facebook,
-    alt: "facebook logo",
-    name: "Facebook",
   },
   {
     src: Linkedin,
@@ -60,24 +50,34 @@ const array = [
     name: "Linkedin",
   },
   {
-    src: Wordpress,
-    alt: "wordpress logo",
-    name: "Wordpress",
-  },
-  {
     src: Hotmart,
     alt: "hotmart logo",
     name: "Hotmart",
   },
   {
-    src: Pagseguro,
-    alt: "pagseguro logo",
-    name: "Pagseguro",
-  },
-  {
     src: Shopify,
     alt: "shopify logo",
     name: "Shopify",
+  },
+  {
+    src: Salesforce,
+    alt: "Salesforce logo",
+    name: "Salesforce",
+  },
+  {
+    src: Facebook,
+    alt: "facebook logo",
+    name: "Facebook",
+  },
+  {
+    src: Wordpress,
+    alt: "wordpress logo",
+    name: "Wordpress",
+  },
+  {
+    src: Pagseguro,
+    alt: "pagseguro logo",
+    name: "Pagseguro",
   },
   {
     src: Zapier,
