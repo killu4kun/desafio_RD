@@ -7,7 +7,20 @@ export const GreenButton = styled.button`
   top: 5227px;
   border-radius: 0px;
   background-color: #19c1ce;
-  
-  box-shadow: 0 4px 2px -2px gray;
-`;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
 
+  margin-top: ${props => props.mT};
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+
+  color: #212429;
+
+  box-shadow: 0 4px 2px -2px black;
+`;

@@ -10,7 +10,7 @@ import Hotmart from "../../assets/brands/hotmart.svg";
 import Pagseguro from "../../assets/brands/pagseguro.svg";
 import Shopify from "../../assets/brands/shopify.svg";
 import Zapier from "../../assets/brands/zapier.svg";
-import GreenButton from "../ButtonGreen";
+import PrimaryButton from "../../components/ButtonGreen";
 
 export default function Integration() {
   return (
@@ -28,7 +28,7 @@ export default function Integration() {
           </div>
         ))}
       </S.imgsContainer>
-      <GreenButton text="CRIAR CONTA GRATUITA" />
+      <PrimaryButton mT="1rem" text="CRIAR CONTA GRATUITA" />
     </S.Container>
   );
 }

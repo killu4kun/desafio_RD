@@ -1,9 +1,10 @@
 import React from 'react'
+import { GreenButton } from './styles'
 
-export default function GreenButton() {
+export default function PrimaryButton({text,mT}) {
   return (
-    <GreenButton>
-        texto
+    <GreenButton mT={mT} >
+        {text}
     </GreenButton>
   )
 }

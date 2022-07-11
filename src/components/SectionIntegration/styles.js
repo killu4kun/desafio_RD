@@ -6,6 +6,7 @@ export const Container = styled.section`
   height: 802px;
   border: 1px solid yellow;
   flex-direction: column;
+  align-items: center;
 `;
 
 export const Header = styled.h1`
