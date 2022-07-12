@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  height: 408px;
-  width: 328px;
-  left: 16px;
-  top: 3567px;
+  width: 360px;
+  height: 558px;
+  padding-left: 2rem;
   border-radius: 0px;
-  border: 1 px solid red;
 `;
 
 export const Heading2 = styled.h2`
@@ -15,6 +13,10 @@ export const Heading2 = styled.h2`
   font-weight: 900;
   font-size: 32px;
   line-height: 100%;
+
+  width: 328px;
+  height: 96px;
+  margin-bottom: 1rem;
   /* or 32px */
 
   display: flex;

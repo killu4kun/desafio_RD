@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Header />
+      <SectionBenefits />
       <SectionCTA />
       <DemoSection />
       <Integration />
