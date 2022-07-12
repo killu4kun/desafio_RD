@@ -9,6 +9,21 @@ export const Container = styled.section`
   align-items: center;
 `;
 
+export const videoContainer = styled.div`
+  height: 184px;
+  width: 328px;
+  border: 1px solid blue;
+  img {
+    height: 184px;
+    width: 328px;
+  }
+  button {
+    position:relative;
+    top:-7rem;
+    left: 8rem;
+  }
+`;
+
 export const Heading3 = styled.h3`
   width: 328px;
   height: 78px;
