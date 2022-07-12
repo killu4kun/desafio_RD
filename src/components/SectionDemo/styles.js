@@ -9,17 +9,27 @@ export const Container = styled.section`
   align-items: center;
 `;
 
+export const BackgroundContainer = styled.div`
+  display: flex;
+  background-color: #f1f3f5;
+  width: 100vw;
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+`;
+
 export const videoContainer = styled.div`
   height: 184px;
   width: 328px;
   border: 1px solid blue;
+  margin-top: 1rem;
   img {
     height: 184px;
     width: 328px;
   }
   button {
-    position:relative;
-    top:-7rem;
+    position: relative;
+    top: -7rem;
     left: 8rem;
   }
 `;
@@ -35,6 +45,7 @@ export const Heading3 = styled.h3`
   line-height: 110%;
 
   color: #212429;
+  margin-bottom: 1rem;
 `;
 
 export const demoButton = styled.button`
