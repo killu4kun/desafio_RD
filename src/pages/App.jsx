@@ -5,11 +5,13 @@ import SectionCTA from "../components/SectionCTA";
 import DemoSection from "../components/SectionDemo";
 import Integration from "../components/SectionIntegration";
 import SectionList from "../components/SectionList";
+import Together from "../components/SectionTogether";
 
 function App() {
   return (
     <>
       <Header />
+      <Together />
       <SectionList />
       <SectionBenefits />
       <SectionCTA />

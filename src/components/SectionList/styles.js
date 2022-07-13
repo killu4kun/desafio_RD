@@ -48,8 +48,11 @@ export const Container = styled.section`
   }
 
   .girl-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
     height: 500px;
-
+    width: 100%;
     background-color: white;
     z-index: 1;
   }
