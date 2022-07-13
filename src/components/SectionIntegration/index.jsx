@@ -15,11 +15,13 @@ import PrimaryButton from "../../components/ButtonGreen";
 export default function Integration() {
   return (
     <S.Container>
-      <S.Header>Torne sua operação de Marketing ainda mais poderosa</S.Header>
-      <S.Paragraph>
-        O RD Station Marketing se conecta as principais ferramentas nacionais e
-        internacionais
-      </S.Paragraph>
+      <S.Content>
+        <S.Header>Torne sua operação de Marketing ainda mais poderosa</S.Header>
+        <S.Paragraph>
+          O RD Station Marketing se conecta as principais ferramentas nacionais
+          e internacionais
+        </S.Paragraph>
+      </S.Content>
       <S.imgsContainer>
         {array.map((logo, index) => (
           <div className={`div ${index + 1}`} key={logo.alt}>
@@ -28,7 +30,7 @@ export default function Integration() {
           </div>
         ))}
       </S.imgsContainer>
-      <PrimaryButton mT="1rem" text="CRIAR CONTA GRATUITA" />
+      <PrimaryButton className='mobile' mT="1rem" text="CRIAR CONTA GRATUITA" />
     </S.Container>
   );
 }

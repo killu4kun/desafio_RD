@@ -1,11 +1,32 @@
 import styled from "styled-components";
 
+export const Content = styled.div`
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
+
 export const Container = styled.section`
   display: flex;
   width: 360px;
   height: 802px;
   flex-direction: column;
   align-items: center;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 310%;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+      position: absolute;
+      top: 550px;
+      left: 170px;
+    }
+  }
 `;
 
 export const Header = styled.h1`
@@ -20,6 +41,12 @@ export const Header = styled.h1`
   line-height: 100%;
 
   color: #212429;
+
+  @media (min-width: 1440px) {
+    height: 80px;
+    width: 600px;
+    font-size: 40px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -33,6 +60,12 @@ export const Paragraph = styled.p`
   line-height: 140%;
 
   color: #212429;
+
+  @media (min-width: 1440px) {
+    width: 600px;
+    height: 56px;
+    font-size: 20px;
+  }
 `;
 
 export const imgsContainer = styled.div`
@@ -48,6 +81,11 @@ export const imgsContainer = styled.div`
   font-size: 14px;
   line-height: 20px;
   color: #000000;
+
+  @media (min-width: 1440px) {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 
   div {
     display: flex;
