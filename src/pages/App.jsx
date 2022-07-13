@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import HeroSection from "../components/HeroSection";
 import SectionBenefits from "../components/SectionBenefits";
 import SectionCTA from "../components/SectionCTA";
 import DemoSection from "../components/SectionDemo";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <HeroSection />
       <Together />
       <SectionList />
       <SectionBenefits />

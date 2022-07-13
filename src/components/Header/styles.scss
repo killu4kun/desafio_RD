@@ -8,6 +8,11 @@
   padding: 1em;
   border-bottom: 1px solid #cfd3d8;
   width: 360px;
+
+  @media (min-width: 1440px) {
+    width: 100vw;
+    color: #212429;
+  }
 }
 
 .menu {
@@ -16,6 +21,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 .main-logo {

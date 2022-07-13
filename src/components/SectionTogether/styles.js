@@ -24,8 +24,6 @@ export const Heading3 = styled.h3`
   width: 328px;
   border-radius: nullpx;
 
-  position: absolute;
-
   left: 16px;
   top: 100px;
 
@@ -42,7 +40,6 @@ export const Heading3 = styled.h3`
 `;
 
 export const Paragraph = styled.p`
-  position: absolute;
   width: 328px;
   height: 184px;
   left: 16px;
