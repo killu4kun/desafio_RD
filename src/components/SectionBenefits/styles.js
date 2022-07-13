@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.section`
   width: 360px;
   height: 558px;
-  padding-left: 2rem;
   border-radius: 0px;
 `;
 

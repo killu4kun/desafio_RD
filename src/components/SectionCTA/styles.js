@@ -5,12 +5,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 408px;
-  width: 328px;
+  width: 360px;
   background-image: url(${imageGraph});
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  margin-left: 1.3rem;
 `;
 
 export const Heading2 = styled.h2`
@@ -32,8 +31,6 @@ export const Heading2 = styled.h2`
 export const Paragraph = styled.p`
   width: 296px;
   height: 120px;
-  left: 16px;
-  top: 184px;
 
   margin-top: 1.5rem;
 

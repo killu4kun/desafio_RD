@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px;
   gap: 16px;
 
   width: 328px;
@@ -15,7 +14,7 @@ export const Container = styled.div`
   background: #ffffff;
   /* shadow/sm */
 
-  box-shadow: 0px 4px 12px rgba(33, 36, 41, 0.14);
+  box-shadow: 1px 4px 12px rgba(33, 36, 41, 0.14);
   border-radius: 2px;
 
   img {
@@ -28,8 +27,6 @@ export const Container = styled.div`
     display: flex;
     width: 48px;
     height: 48px;
-    left: 24px;
-    top: 24px;
     align-items: center;
     justify-content: center;
     border-radius: 50%;

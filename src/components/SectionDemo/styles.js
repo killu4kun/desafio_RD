@@ -3,16 +3,15 @@ import styled from "styled-components";
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 360px;
   height: 390px;
-  border: 1px solid green;
   align-items: center;
 `;
 
 export const BackgroundContainer = styled.div`
   display: flex;
   background-color: #f1f3f5;
-  width: 100vw;
+  width: 360px;
   height: 300px;
   align-items: center;
   flex-direction: column;
@@ -21,7 +20,6 @@ export const BackgroundContainer = styled.div`
 export const videoContainer = styled.div`
   height: 184px;
   width: 328px;
-  border: 1px solid blue;
   margin-top: 1rem;
   img {
     height: 184px;

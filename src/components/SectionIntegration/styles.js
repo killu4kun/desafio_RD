@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   display: flex;
-  width: 100vw;
+  width: 360px;
   height: 802px;
-  border: 1px solid yellow;
   flex-direction: column;
   align-items: center;
 `;
@@ -26,7 +25,6 @@ export const Header = styled.h1`
 export const Paragraph = styled.p`
   width: 328px;
   height: 66px;
-  margin-bottom: 1rem;
 
   font-family: "Nunito Sans";
   font-style: normal;
@@ -50,8 +48,6 @@ export const imgsContainer = styled.div`
   font-size: 14px;
   line-height: 20px;
   color: #000000;
-
-  border: 1px solid pink;
 
   div {
     display: flex;

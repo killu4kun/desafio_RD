@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   display: flex;
   height: 221px;
-  width: 100vw;
+  width: 360px;
   border-radius: 0px;
   background-color: #19c1ce;
   flex-direction: column;
@@ -11,8 +11,8 @@ export const Container = styled.footer`
   align-items: center;
 
   .alternative-logo {
-    width: 100%;
-    height: 50px;
+    width: 174px;
+    height: 32px;
   }
 `;
 

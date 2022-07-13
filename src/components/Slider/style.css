@@ -2,9 +2,6 @@
   background-color: #19c1ce;
   height: 16px;
   width: 16px;
-  left: 12px;
-  top: 12px;
-  border-radius: 0px;
 }
 
 .swiper-pagination-bullet {
@@ -17,5 +14,7 @@
   position: static;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 1rem;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
