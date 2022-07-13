@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const Content = styled.div`
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 130px;
+    
+  }
+`;
+
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
@@ -19,6 +27,7 @@ export const Form = styled.form`
     height: 1083px;
     left: 836px;
     top: 120px;
+    z-index: 2;
   }
 
   h4 {
@@ -47,6 +56,11 @@ export const Form = styled.form`
     text-align: center;
 
     color: #7e8a98;
+
+    @media (min-width: 1440px) {
+      position: absolute;
+      left: 90px;
+    }
   }
 
   input[type="text"],
@@ -86,7 +100,7 @@ export const Form = styled.form`
     margin-top: 1rem;
     height: 126px;
     width: 280px;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
 
   button {
@@ -144,6 +158,7 @@ export const Heading = styled.div`
     position: absolute;
     width: 448px;
     height: 109px;
-    left: 50px;
+    left: 35px;
+    top: 25px;
   }
 `;

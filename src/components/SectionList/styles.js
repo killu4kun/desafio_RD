@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const Content = styled.div`
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+  }
+`;
+
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
@@ -9,6 +17,12 @@ export const Container = styled.section`
   align-items: center;
 
   background-color: #f1f3f5;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    width: 100vw;
+    top: 90%;
+  }
 
   .container {
     height: 504px;
@@ -27,6 +41,11 @@ export const Container = styled.section`
     font-size: 16px;
     line-height: 150%;
     gap: 0.7rem;
+
+    @media (min-width: 1440px) {
+      width: 496px;
+      height: 48px;
+    }
   }
 
   .space {
@@ -45,6 +64,11 @@ export const Container = styled.section`
   .girl {
     height: 325px;
     width: 325px;
+
+    @media (min-width: 1440px) {
+      width: 600px;
+      height: 600px;
+    }
   }
 
   .girl-container {
@@ -53,8 +77,14 @@ export const Container = styled.section`
     margin-top: 2rem;
     height: 500px;
     width: 100%;
-    background-color: white;
     z-index: 1;
+
+    @media (min-width: 1440px) {
+      position: absolute;
+      left: -20%;
+      top: 7%;
+      background-color: none;
+    }
   }
 `;
 
@@ -74,6 +104,13 @@ export const Heading3 = styled.h3`
   align-items: center;
 
   color: #000000;
+
+  @media (min-width: 1440px) {
+    font-size: 32px;
+    width: 496px;
+    height: 72px;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const Subtitle = styled.sub`
@@ -94,4 +131,9 @@ export const Subtitle = styled.sub`
   color: #212429;
 
   margin-bottom: 1rem;
+
+  @media (min-width: 1440px) {
+    font-size: 20px;
+    width: 495px;
+  }
 `;

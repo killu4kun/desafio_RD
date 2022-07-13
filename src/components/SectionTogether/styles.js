@@ -5,6 +5,14 @@ export const Container = styled.div`
   width: 360px;
   background-color: #0b485b;
 
+  @media (min-width: 1440px) {
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    top: 730px;
+    z-index: 1;
+  }
+
   /* ::before {
     content: "";
     position: absolute;
@@ -24,8 +32,13 @@ export const Heading3 = styled.h3`
   width: 328px;
   border-radius: nullpx;
 
-  left: 16px;
-  top: 100px;
+  @media (min-width: 1440px) {
+    position: absolute;
+    width: 600px;
+    height: 35px;
+    top: 100px;
+    left: 110px;
+  }
 
   font-family: "Darker Grotesque";
   font-style: normal;
@@ -44,6 +57,13 @@ export const Paragraph = styled.p`
   height: 184px;
   left: 16px;
   top: 165px;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    width: 600px;
+    height: 112px;
+    left: 108px;
+  }
 
   font-family: "Nunito Sans";
   font-style: normal;
