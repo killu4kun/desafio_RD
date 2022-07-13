@@ -1,7 +1,6 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "./style.scss";
+import React from "react";
+import AnnouncesCard from "../AnnouncesCard";
+import { Container } from "./styles";
 
 import graphIcon from "../../assets/icons/graphicon.svg";
 import dotsIcon from "../../assets/icons/icondots.svg";
@@ -10,33 +9,19 @@ import pizzaIcon from "../../assets/icons/iconpizza.svg";
 import worldIcon from "../../assets/icons/iconworld.svg";
 import starIcon from "../../assets/icons/staricon.svg";
 
-import { Pagination } from "swiper";
-
-import React from "react";
-import AnnouncesCard from "../AnnouncesCard";
-
-export default function Slider() {
+export default function Benefits() {
   return (
-    <div className='swiper-div'>
-      <Swiper
-        pagination
-        modules={[Pagination]}
-        slidesPerView={0.9}
-        className="mySwiper"
-      >
-        {array.map((icon, index) => (
-          <SwiperSlide>
-            <AnnouncesCard
-              src={icon.src}
-              alt={icon.alt}
-              content={icon.content}
-              title={icon.title}
-              key={index}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <Container>
+      {array.map((icon, index) => (
+        <AnnouncesCard
+          alt={icon.alt}
+          content={icon.content}
+          src={icon.src}
+          title={icon.title}
+          key={index}
+        />
+      ))}
+    </Container>
   );
 }
 

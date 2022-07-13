@@ -3,7 +3,19 @@ import styled from "styled-components";
 export const Container = styled.section`
   width: 360px;
   height: 558px;
-  border-radius: 0px;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    top: 168%;
+    border: 1px solid yellow;
+    height: 954px;
+  
+  }
 `;
 
 export const Heading2 = styled.h2`

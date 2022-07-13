@@ -18,3 +18,9 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.swiper-div {
+  @media (min-width: 1440px) {
+    display: none;
+  }
+}

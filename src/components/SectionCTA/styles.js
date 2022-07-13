@@ -8,8 +8,17 @@ export const Container = styled.div`
   width: 360px;
   background-image: url(${imageGraph});
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100%;
   align-items: center;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 245%;
+    left: 100px;
+    width: 1224px;
+    height: 396px;
+    justify-content: center;
+  }
 `;
 
 export const Heading2 = styled.h2`
@@ -26,6 +35,12 @@ export const Heading2 = styled.h2`
   text-align: center;
 
   color: #ffffff;
+
+  @media (min-width: 1440px) {
+    width: 600px;
+    height: 80px;
+    font-size: 40px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -43,4 +58,9 @@ export const Paragraph = styled.p`
   text-align: center;
 
   color: #ffffff;
+
+  @media (min-width: 1440px) {
+    width: 808px;
+    height: 48px;
+  }
 `;
