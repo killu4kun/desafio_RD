@@ -46,7 +46,6 @@ export const imgContainer = styled.div`
   }
 
   ::after {
-    border: 1px solid yellow;
     width: 100px;
   }
 `;
@@ -58,6 +57,16 @@ export const socialContainer = styled.div`
   margin-top: 1rem;
   width: 70%;
   height: 40px;
+
+  a:first-of-type {
+    height: 50px;
+    width: 100%;
+  }
+
+  a {
+    height: 60px;
+    width: 100%;
+  }
 
   img {
     height: 100%;
@@ -87,7 +96,8 @@ export const Copyright = styled.p`
     text-decoration: none;
     font-weight: bold;
   }
-  span {
+  a {
+    color: #212429;
     text-decoration: underline;
   }
 `;

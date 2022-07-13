@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import InputMask from "react-input-mask";
 
 export const Content = styled.div`
   @media (min-width: 1440px) {
     position: absolute;
     top: 130px;
-    
+
+    display: ${({ status }) => (status === true ? "hidden" : "")};
   }
 `;
 
@@ -64,6 +66,7 @@ export const Form = styled.form`
   }
 
   input[type="text"],
+  input[type="password"],
   select {
     height: 40px;
     width: 280px;
@@ -126,6 +129,11 @@ export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 250px;
+
+  img:first-of-type {
+    width: 20px;
+    height: 20px;
+  }
 `;
 
 export const Label = styled.label`

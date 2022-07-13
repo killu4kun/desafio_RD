@@ -12,7 +12,6 @@ export const Container = styled.section`
     flex-direction: column;
     width: 100vw;
     top: 168%;
-    border: 1px solid yellow;
     height: 954px;
   
   }
