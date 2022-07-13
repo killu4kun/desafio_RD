@@ -10,6 +10,7 @@ import Youtube from "../../assets/youtube.svg";
 export default function Footer() {
   return (
     <S.Container>
+      <S.Content>
       <S.imgContainer>
         <img className="alternative-logo" src={AlternativeLogo} />
       </S.imgContainer>
@@ -20,6 +21,7 @@ export default function Footer() {
         <img src={Instagram} />
         <img src={Youtube} />
       </S.socialContainer>
+      </S.Content>
       <S.Copyright>
         © 2021 <span className="bold-text-footer">RD Station.</span> <span>Política de Privacidade.</span>
       </S.Copyright>

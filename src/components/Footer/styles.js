@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+export const Content = styled.div`
+  @media (min-width: 1440px) {
+    display: flex;
+    width: 90%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+`;
+
 export const Container = styled.footer`
   display: flex;
   height: 221px;
@@ -9,6 +20,12 @@ export const Container = styled.footer`
   flex-direction: column;
 
   align-items: center;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 365%;
+    width: 100%;
+  }
 
   .alternative-logo {
     width: 174px;
@@ -23,6 +40,15 @@ export const imgContainer = styled.div`
   align-items: center;
   border-bottom: 1px solid white;
   width: 90%;
+
+  @media (min-width: 1440px) {
+    border-bottom: 1px solid #19c1ce;
+  }
+
+  ::after {
+    border: 1px solid yellow;
+    width: 100px;
+  }
 `;
 
 export const socialContainer = styled.div`
@@ -51,6 +77,11 @@ export const Copyright = styled.p`
   font-size: 14px;
   line-height: 150%;
   text-align: center;
+
+  @media (min-width: 1440px) {
+    width: 90%;
+    text-align: end;
+  }
 
   .bold-text-footer {
     text-decoration: none;
