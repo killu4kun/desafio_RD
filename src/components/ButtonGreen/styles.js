@@ -19,4 +19,9 @@ export const GreenButton = styled.button`
   text-transform: uppercase;
 
   color: #212429;
+
+  a {
+    text-decoration: none;
+    color: #212429;
+  }
 `;
